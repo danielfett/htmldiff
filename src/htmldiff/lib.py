@@ -228,7 +228,6 @@ class HTMLMatcher(SequenceMatcher):
                 out.write(item)
             else:
                 text.append(item.decode('utf-8'))
-        print(text)
         self.out_insert(''.join(text), out)
 
     def out_delete(self, s, out):
