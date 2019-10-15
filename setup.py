@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="htmldiff",
-    version="1.0.0.dev7",
-    author="Ian Bicking - https://github.com/ianb",
+    version="1.1",
+    author="Daniel Fett - https://github.com/danielfett",
     description=("Utility to create html diffs"),
     packages=find_packages('src'),
     package_dir={"": "src"},

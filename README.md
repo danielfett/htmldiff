@@ -7,6 +7,7 @@ HTML Diffing utility.
 - Refactored for use with setup tools and adding side-by-side diffing by
   [Brant Watson](https://github.com/induane)
 - Converted to Python 3 by [Daniel Mulholland](https://github.com/danyill)
+- **Fix for parsing of style and script tags by [Daniel Fett](https://github.com/danielfett) - Version 1.1**
 
 License: MIT
 
